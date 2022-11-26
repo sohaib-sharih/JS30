@@ -1,0 +1,15 @@
+let x = document.querySelector(".box")
+console.log(`only x: ${x}`)
+console.log(`x.textContent: ${x.textContent}`)
+console.log(`x.innerHtml: ${x.innerHTML}`)
+console.log(x)
+console.log(x.offsetWidth)
+
+
+let y = document.querySelectorAll(".box")
+console.log(`only y = : ${y}`)
+console.log(`y.textContent: ${y.textContent}`)
+console.log(`y.innerHTML: ${y.innerHTML}`)
+console.log(y)
+console.log(y[2])
+console.log(y[2].textContent)

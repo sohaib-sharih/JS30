@@ -1,0 +1,4 @@
+concepts need to cover:
+1. arrow function
+2. this. constructor functions
+3. foreach loop
