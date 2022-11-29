@@ -59,13 +59,16 @@ h3{
     padding: 20px;
     margin: 0px;
     color: white;
-    /* flex-wrap: wrap; */
+    text-shadow: 4px 4px 8px black;
+    flex-wrap: wrap;
+
 
 }
 .pOne{
     font-size: 25px;
     color: white;
     text-align: center;
+    text-shadow: 5px 5px 11px black;
     flex-wrap: wrap;
 
 }
@@ -75,4 +78,5 @@ h3{
     color: white;
     text-align: center;
     flex-flow: wrap;
+    text-shadow: 5px 5px 11px black;
 }
