@@ -4,6 +4,7 @@ function removeTransition(e){
     
 }
 function playSound(e){
+    // let key = prompt("Enter your letter?")
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
     const key = document.querySelector(`div[data-key="${e.keyCode}"]`)
 
@@ -14,6 +15,8 @@ function playSound(e){
     audio.play();
     
 }
-const keys = Array.from(document.querySelectorAll('.key'))
-keys.forEach(key => key.addEventListener('transitionend', removeTransition));
-window.addEventListener('keydown', playSound);
+
+    const keys = Array.from(document.querySelectorAll('.key'))
+    keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+    window.addEventListener('keydown', playSound);
+    
